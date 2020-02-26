@@ -1,6 +1,6 @@
 # webmethods.io_insightly-Community-Connector
 
-This is a Webmethods.io community connector for [Insightly](https://en.wikipedia.org/wiki/Insightly),The company develops cloud-based customer relationship management (CRM) and project management tools for small and medium size businesses. The connector uses the [Insightly REST API](https://api.insightly.com/) to make HTTP requests to access or modify a resource. The actions supported by this community connector are:
+This is a Webmethods.io community connector for [Insightly](https://en.wikipedia.org/wiki/Insightly).The company develops cloud-based customer relationship management (CRM) and project management tools for small and medium size businesses. The connector uses the [Insightly REST API](https://api.insightly.com/) to make HTTP requests to access or modify a resource. The actions supported by this community connector are:
 
 #### 1. [Gets a list of Contacts](https://api.insightly.com/v3.1/Help#!/Contacts/GetEntities)
 #### 2. [Gets a Contact](https://api.insightly.com/v3.1/Help#!/Contacts/GetEntity)
