@@ -1,0 +1,41 @@
+{
+  "name": "insightly",
+  "description": "insightly",
+  "triggers": [],
+  "actions": [
+    "/v1/gets_a_list_of_contacts",
+    "/v1/gets_a_contact",
+    "/v1/deletes_a_contact",
+    "/v1/adds_a_contact",
+    "/v1/gets_a_list_of_projects",
+    "/v1/gets_a_list_of_users",
+    "/v1/adds_a_project"
+  ],
+  "version": 1,
+  "auth_type": "custom",
+  "docs_link": "http://docs.example.com",
+  "appId": "dfb82c0f-dcbe-4f17-be3f-2a12901ccf5f",
+  "guid": "4acb7ba4-cf73-4a0d-9ab8-f52adb89b886",
+  "connectionUid": "insightly_1582692474860",
+  "lookup": true,
+  "lookup_attachments": [
+    {
+      "lookup_id": "get_contact_id",
+      "action_id": "/v1/gets_a_contact",
+      "field_id": "id",
+      "dependencies": []
+    },
+    {
+      "lookup_id": "get_contact_id",
+      "action_id": "/v1/deletes_a_contact",
+      "field_id": "id",
+      "dependencies": []
+    },
+    {
+      "lookup_id": "get_user_id",
+      "action_id": "/v1/adds_a_project",
+      "field_id": "userid",
+      "dependencies": []
+    }
+  ]
+}
