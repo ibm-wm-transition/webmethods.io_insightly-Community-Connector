@@ -43,7 +43,7 @@ Note: If you have installed any other Node version on your system, you can:
 The connector has been built with [wmiocli](https://docs.webmethods.io/integration/developer_guide/connector_builder/#gsc.tab=0), webmethod.io's iPaaS Connector Builder CLI tool, which must be installed. 
 
 ### Getting the API key 
-To generate an API key, users should log in to their BambooHR account and click their name in the upper right-hand corner of any page to get to the user context menu. If they have sufficient permissions, there will be an "API Keys" option in that menu to go to the page. Each user may have one or more secret API keys that identify that user to the API.
+(https://github.com/SoftwareAG/webmethods.io_insightly-Community-Connector/blob/master/a.png)
 
 ### Installing
 1. Clone the repo `https://github.com/yuvanmytri/webmethods.io-BambooHR-Community-Connector.git`.
