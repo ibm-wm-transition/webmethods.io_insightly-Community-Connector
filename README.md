@@ -2,29 +2,16 @@
 
 This is a Webmethods.io community connector for [Insightly](https://en.wikipedia.org/wiki/Insightly),The company develops cloud-based customer relationship management (CRM) and project management tools for small and medium size businesses. The connector uses the [Insightly REST API](https://api.insightly.com/) to make HTTP requests to access or modify a resource. The actions supported by this community connector are:
 
-#### 1. [Add an Employee Dependent](https://documentation.bamboohr.com/reference#add-employee-dependent-1)
-#### 2. [Add Employee](https://documentation.bamboohr.com/reference#add-employee-1)
-#### 3. [Change a Request Status](https://documentation.bamboohr.com/reference#time-off-change-a-request-status-1)
-#### 4. [Estimate Future Time Off Balances](https://documentation.bamboohr.com/reference#estimate-future-time-off-balances)
-#### 5. [Get a Benefit Coverage](https://documentation.bamboohr.com/reference#get-benefit-coverage-1)
-#### 6. [Get a List of Who's Out](https://documentation.bamboohr.com/reference#get-a-list-of-whos-out-1)
-#### 7. [Get all Employee Dependents](https://documentation.bamboohr.com/reference#get-employee-dependents-1)
-#### 8. [Get Benefit Coverages](https://documentation.bamboohr.com/reference#get-benefit-coverages-1)
-#### 9. [Get Benefit Deduction Types](https://documentation.bamboohr.com/reference#get-benefit-deduction-types-1)
-#### 10. [Get Company Report](https://documentation.bamboohr.com/reference#get-company-report-1)
-#### 11. [Get Employee Dependent](https://documentation.bamboohr.com/reference#get-employee-dependent-1)
-#### 12. [Get Employee Details](https://documentation.bamboohr.com/reference#get-employee)
-#### 13. [Get Employee Directory](https://documentation.bamboohr.com/reference#get-employees-directory-1)
-#### 14. [Get Time Off Policies](https://documentation.bamboohr.com/reference#get-time-off-policies)
-#### 15. [Get Time Off Requests](https://documentation.bamboohr.com/reference#time-off-get-time-off-requests-1)
-#### 16. [Get Time Off Types](https://documentation.bamboohr.com/reference#get-time-off-types)
-#### 17. [List Employee Files and Categories](https://documentation.bamboohr.com/reference#list-employee-files-1)
-#### 18. [List Time Off Policies for a Employee](https://documentation.bamboohr.com/reference#time-off-list-time-off-policies-for-employee)
-#### 19. [Request a Custom Report](https://documentation.bamboohr.com/reference#request-custom-report-1)
-#### 20. [Update an Employee Dependent](https://documentation.bamboohr.com/reference#update-employee-dependent-1)
-#### 21. [Update Employee](https://documentation.bamboohr.com/reference#update-employee)
+#### 1. [Gets a list of Contacts](https://api.insightly.com/v3.1/Help#!/Contacts/GetEntities)
+#### 2. [Gets a Contact](https://api.insightly.com/v3.1/Help#!/Contacts/GetEntity)
+#### 3. [Deletes a Contact](https://api.insightly.com/v3.1/Help#!/Contacts/DeleteEntity)
+#### 4. [Adds a Contact](https://api.insightly.com/v3.1/Help#!/Contacts/AddEntity)
+#### 5. [Gets a List of Projects](https://api.insightly.com/v3.1/Help#!/Projects/GetEntities)
+#### 6. [Gets a list of Users](https://api.insightly.com/v3.1/Help#!/Users/GetUsers)
+#### 7. [Adds a Project](https://api.insightly.com/v3.1/Help#!/Projects/AddEntity)
 
-Learn about other supported actions [here](https://documentation.bamboohr.com/reference).
+
+Learn about other supported actions [here](https://api.insightly.com/).
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
